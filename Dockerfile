@@ -1,7 +1,7 @@
 # Dockerfile
 
 # FROM directive instructing base image to build on
-FROM python:3.7-buster
+FROM python:3.7.9-slim
 
 RUN apt-get update && apt-get install nginx vim ssh -y --no-install-recommends
 
